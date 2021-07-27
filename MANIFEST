@@ -3,3 +3,12 @@ README
 setup.py
 aimmspack\__init__.py
 aimmspack\__main__.py
+aimmspack\_lib\__init__.py
+aimmspack\_lib\aimmspack.py
+aimmspack\_lib\bash.py
+aimmspack\_lib\config.py
+aimmspack\_lib\yamlFile.py
+aimmspack\api\__init__.py
+aimmspack\api\aimmspackCLI.py
+aimmspack\api\debugCLI.py
+aimmspack\api\example.py

@@ -35,7 +35,7 @@ class ModelConfig(BaseModel):
     def get_aimms_model_path(self):
         """Returns the full aimms model path with model name"""
 
-        return f'{self.path}/{self.get_aimms_model()}'
+        return f'{self.path}\\{self.get_aimms_model()}'
 
 def process_config(configDict: dict) -> ModelConfig:
     """Process the configuration for the model and returns a model object"""

@@ -6,11 +6,11 @@ from distutils.core import setup
 NAME = 'aimmspack'
 VERSION = '1.0.0'
 DESCRIPTION = 'A simple project to automate the creation of .aimmspack packages from a config file.'
-URL = 'https://github.com/me/myproject'
+URL = 'https://github.com/ro-56/aimmspack'
 AUTHOR = 'Rodrigo Mendonça'
-AUTHOR_EMAIL = 'author@example.com'
+# AUTHOR_EMAIL = 'mail@mail.com'
 MAINTAINER = AUTHOR
-MAINTAINER_EMAIL = AUTHOR_EMAIL
+# MAINTAINER_EMAIL = AUTHOR_EMAIL
 LICENSE = 'MIT'
 
 setup(
@@ -19,9 +19,9 @@ setup(
     description=DESCRIPTION,
     url=URL,
     author=AUTHOR,
-    author_email=AUTHOR_EMAIL,
+    # author_email=AUTHOR_EMAIL,
     maintainer=MAINTAINER,
-    maintainer_email=MAINTAINER_EMAIL,
+    # maintainer_email=MAINTAINER_EMAIL,
     license = LICENSE,
     classifiers=[
         'Development Status :: 1 - Planning',
