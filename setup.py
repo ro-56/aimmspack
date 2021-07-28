@@ -45,6 +45,10 @@ setup(
 
     python_requires='>=3.9, <4',
 
+    install_requires=[
+        'pydantic>=1.8.2'
+    ],
+
     entry_points={
         'console_scripts': [
             'aimmspack=aimmspack.__main__:main',
